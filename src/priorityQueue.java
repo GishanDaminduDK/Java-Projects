@@ -35,7 +35,7 @@ public class priorityQueue{
         Iterator<Student> it=studentQ.iterator();// iterator to iterate through queue
         while(it.hasNext()){
             //delete and display the first element from the queue
-            System.out.println("The item of thr queue: "+ studentQ.poll().toString());
+            System.out.println("The item of the queue: "+ studentQ.poll().toString());
         }
     }
 }
