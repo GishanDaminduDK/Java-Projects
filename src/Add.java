@@ -2,13 +2,13 @@ import java.util.Arrays;
 
 public class Add {
     public static void main(String[] args) {
-        int arr1[] = {3, 78}; // {8,9}
+        int arr1[] = {3, 17}; // {8,9}
         int arr2[] = {8, 9}; // {3,4}
 
         // Create a new array with a length equal to the sum of the lengths of arr1 and arr2
         int result[] = new int[arr1.length + arr2.length];
         int j=0;
-        String status;
+        String status="non";
         for (int i=0; i<2; i++){
 
             if (arr1[i]<arr2[j+i]) {
@@ -24,6 +24,10 @@ public class Add {
 
         if (status=="false"){
             result[2]=arr2[0];
+            result[3]=arr2[1];
+        }
+        if (status=="true"){
+            result[2]=arr1[1];
             result[3]=arr2[1];
         }
 
