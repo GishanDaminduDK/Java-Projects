@@ -14,11 +14,17 @@ public class Add {
             if (arr1[i]<arr2[j+i]) {
                 result[i] = arr1[i];
                 status="false";
-            } else{
-                result[i]=arr2[i+j];
+            } else if (arr1[i]>arr2[j+i+1]){
+                result[3]=arr2[i+j];
                 status="true";
                 //result[1]
+            } else if (arr1[i]>arr2[j+i]){
+                result[i]=arr2[i+j];
+                status="true";
+                //result[1]{
+
             }
+
             j=j-1;
         }
 
