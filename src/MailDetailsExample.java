@@ -26,7 +26,7 @@ public class MailDetailsExample {
         mailDetails_hashmap.put("1", savindu);
         ArrayList<String> ghy = mailDetails_hashmap.get("1");
         System.out.println("savindu" + ghy);
-        System.out.println(savi)
+        System.out.println(savindu);
 
         // Accessing values from the HashMap
         ArrayList<String> aliceEmailList = mailDetails_hashmap.get("Alice");

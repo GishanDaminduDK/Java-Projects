@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5e8f564-a228-4271-9310-2a31b21f1afc" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/src/arraylist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Add.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MailDetailsExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MailDetailsExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arraylist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arraylist.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,14 +37,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/user/Desktop/SE/projectNew"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Desktop/SE/projectNew&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.MailDetailsExample">
+}</component>
+  <component name="RunManager" selected="Application.arraylist (1)">
+    <configuration name="Add" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Add" />
+      <module name="projectNew" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MailDetailsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MailDetailsExample" />
       <module name="projectNew" />
@@ -57,32 +66,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="newjava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="newjava" />
+    <configuration name="arraylist (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arraylist" />
       <module name="projectNew" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="priorityQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaCollection.priorityQueue" />
+    <configuration name="arraylist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arraylist" />
       <module name="projectNew" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javaCollection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.arraylist (1)" />
+        <item itemvalue="Application.arraylist" />
+        <item itemvalue="Application.Add" />
         <item itemvalue="Application.MailDetailsExample" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.newjava" />
-        <item itemvalue="Application.priorityQueue" />
       </list>
     </recent_temporary>
   </component>
@@ -130,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702897915129</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update">
+      <created>1702956610434</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1702956610434</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
