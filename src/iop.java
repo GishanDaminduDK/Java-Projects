@@ -4,11 +4,11 @@ public class iop {
     public static int[] insertNumbersortedArray(int[] arr2,int insertvalue){
         int num2 = arr2.length;
         int h=insertvalue;
-        boolean status=false;
+        boolean status=false; //To check the all iterations are completed
         for (int i=0;i<num2;i++){
             if (h<arr2[i] && i!=0){
                 int k=num2-2;
-                for (int p=0;p<num2-i-1;p++){
+                for (int p=0;p<num2-i-1;p++){  //swap the arr2
                     arr2[k+1]=arr2[k];
                     k=k-1;
                 }
@@ -17,7 +17,7 @@ public class iop {
                 break;
 
             }
-            else if(h<arr2[i]){
+            else if(h<arr2[i]){  // if we get insert value as smallest value of the whole arr2
                 int k=num2-2;
                 for (int p=0;p<num2-i-1;p++){
                     arr2[k+1]=arr2[k];
@@ -30,7 +30,7 @@ public class iop {
 
 
         }
-        if (status==false){
+        if (status==false){ // if we get insert value as greatest value of the whole arr2
             arr2[num2-1]=h;
 
         }
