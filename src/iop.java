@@ -4,6 +4,7 @@ public class iop {
     public static int[] insertNumbersortedArray(int[] arr2,int insertvalue){
         int num2 = arr2.length;
         int h=insertvalue;
+        boolean status=false;
         for (int i=0;i<num2;i++){
             if (h<arr2[i] && i!=0){
                 int k=num2-2;
@@ -12,7 +13,9 @@ public class iop {
                     k=k-1;
                 }
                 arr2[i]=h;
+                status=true;
                 break;
+
             }
             else if(h<arr2[i]){
                 int k=num2-2;
@@ -21,14 +24,22 @@ public class iop {
                     k=k-1;
                 }
                 arr2[i]=h;
+                status=true;
                 break;
             }
+
+
+        }
+        if (status==false){
+            arr2[num2-1]=h;
+
         }
         return arr2;
 
     }
     public static void main(String[] args) {
         int arr2[] = {12,15,33,44,98,100,0}; // {3,4} {0,0,0,0,0,0,0}
+        insertNumbersortedArray(arr2,700);
 
 //        int num2 = arr2.length;
 //        int h=40;
