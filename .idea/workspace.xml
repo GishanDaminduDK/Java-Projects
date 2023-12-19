@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5e8f564-a228-4271-9310-2a31b21f1afc" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/src/iop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newjava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newjava.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/iop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/iop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +42,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Desktop/SE/projectNew&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Add">
+  <component name="RunManager" selected="Application.iop">
     <configuration name="Add" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Add" />
       <module name="projectNew" />
@@ -53,13 +52,6 @@
     </configuration>
     <configuration name="MailDetailsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MailDetailsExample" />
-      <module name="projectNew" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="projectNew" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -79,13 +71,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="iop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="iop" />
+      <module name="projectNew" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.iop" />
         <item itemvalue="Application.Add" />
         <item itemvalue="Application.arraylist (1)" />
         <item itemvalue="Application.arraylist" />
         <item itemvalue="Application.MailDetailsExample" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702978847390</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="update">
+      <created>1702987062642</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1702987062642</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
