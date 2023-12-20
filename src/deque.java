@@ -14,7 +14,7 @@ public class deque {
 
 
         for (int num:numbers) {
-            //int num = in.nextInt();
+            //int num = in.nextInt();//
 
             // Add the current element to the deque and set
             deque.addLast(num);
