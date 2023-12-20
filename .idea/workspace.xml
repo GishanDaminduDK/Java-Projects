@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a5e8f564-a228-4271-9310-2a31b21f1afc" name="Changes" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/deque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deque.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,16 +42,9 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Desktop/SE/projectNew&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.iop">
+  <component name="RunManager" selected="Application.deque">
     <configuration name="Add" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Add" />
-      <module name="projectNew" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MailDetailsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MailDetailsExample" />
       <module name="projectNew" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -70,6 +64,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="deque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="deque" />
+      <module name="projectNew" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="iop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="iop" />
       <module name="projectNew" />
@@ -79,11 +80,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.deque" />
         <item itemvalue="Application.iop" />
         <item itemvalue="Application.Add" />
         <item itemvalue="Application.arraylist (1)" />
         <item itemvalue="Application.arraylist" />
-        <item itemvalue="Application.MailDetailsExample" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1703014606041</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="update">
+      <created>1703053290140</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1703053290140</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
