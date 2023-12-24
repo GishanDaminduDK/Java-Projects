@@ -1,20 +1,19 @@
 import java.util.*;
 
-public class deque {
+public class newDuplicate {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         Deque<Integer> deque = new ArrayDeque<>();
         Set<Integer> uniqueSet = new HashSet<>();
 
-        int n = 10;//in.nextInt();
-        int m = 5;//in.nextInt();
+        int n = 17; // in.nextInt();
+        int m = 7; // in.nextInt();
         int maxUniqueCount = 0;
-        //int[] numbers=new int[6];
-        int[] numbers={1,2,3,4,5,5,5,5,2,2};
+        // int[] numbers = new int[6];
+        int[] numbers = {1, 2, 3, 4, 1, 5, 1, 5, 2, 2,3,1,1,1,1,6,7};
 
-
-        for (int num:numbers) {
-            //int num = in.nextInt();//
+        for (int num : numbers) {
+            // int num = in.nextInt();//
 
             // Add the current element to the deque and set
             deque.addLast(num);
@@ -24,19 +23,19 @@ public class deque {
             if (deque.size() > m) {
                 int removedElement = deque.removeFirst();
                 // if (!deque.contains(removedElement)) {
-                //     uniqueSet.remove(removedElement);
-                //     for (int no:uniqueSet){
-                //       System.out.println(no);
-                //     }
-
+                // uniqueSet.remove(removedElement);
+                // for (int no : uniqueSet) {
+                // System.out.println(no);
+                // }
             }
 
             // Update the maximum unique count
             if (deque.size() == m && uniqueSet.size() > maxUniqueCount) {
                 maxUniqueCount = uniqueSet.size();
-                int k=maxduplicateval(deque);
-                if (k>maxUniqueCount){
-                    maxUniqueCount=k;
+                int[] arrayDeque = deque.stream().mapToInt(Integer::intValue).toArray();
+                int k = maxduplicateval(arrayDeque);
+                if (k > maxUniqueCount) {
+                    maxUniqueCount = k;
                 }
             }
         }
